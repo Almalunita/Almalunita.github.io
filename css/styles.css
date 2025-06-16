@@ -9,7 +9,7 @@ header {
 
 background-color: rgb(97, 200, 202);
 position:relative;
-padding: 180px;
+padding: 120px;
 }
 
 .tipografia {
@@ -87,7 +87,7 @@ footer{
   nav{
    position: absolute;
    left:35px;
-   top: 170px;
+   top: 110px;
   }
 
 }
@@ -143,6 +143,6 @@ nav a:hover{
 }
 
 h1:hover{
-   transform: scale(1.2);
+   transform: scale(1.3);
 
 }
