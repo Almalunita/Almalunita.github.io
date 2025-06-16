@@ -4,17 +4,24 @@
    box-sizing: border-box;
 }
 
-header{
-   background-color: rgb(97, 200, 202);
-   position: relative;
-   padding: 70px;
+
+header {
+
+background-color: rgb(97, 200, 202);
+position:relative;
+padding: 70px;
+}
+
+.tipografia {
+  font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1{
    position: absolute;
    top:25px;
-   left: 40px;
-   font-size: 50px;
+   left: 150px;
 }
 
 nav {
@@ -24,7 +31,7 @@ nav {
 }
 
 nav ul{
-   list-style: none;
+   list-style: lower-alpha;
 }
 
 nav li{
@@ -38,11 +45,11 @@ section{
 }
 
 .contenedor_padre{
-   max-width: 1000px;
+   max-width:1500px;
    background-color: rgb(87, 181, 192);
    display: flex;
    justify-content: space-around;
-flex-wrap: wrap-reverse;
+   flex-wrap: wrap-reverse;
    margin: 0 auto;
    
 }
@@ -69,9 +76,9 @@ flex-wrap: wrap-reverse;
 
 
 footer{
-   background-color: rgb(62, 142, 151);
+   background-color: rgb(120, 170, 175);
+   text-align: center;
 }
-
 
 /*------------media query---------------*/
 
@@ -136,8 +143,6 @@ nav a:hover{
 }
 
 h1:hover{
-   transform: scale(1.2);
+   transform: scale(2);
 
 }
-
-
